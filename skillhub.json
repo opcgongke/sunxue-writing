@@ -1,0 +1,38 @@
+{
+  "id": "sunxue-writing-narrative",
+  "name": "孙学写作叙事",
+  "version": "0.4.0",
+  "description": "中文高反差第一人称叙事风格 Skill，支持改写、生成与情节型封面提示词，强调数字反差钩子、场景推进、前后呼应和图文共用的叙事锚点。",
+  "author": "sunxue-writing",
+  "language": "zh-CN",
+  "entry_points": {
+    "primary": "SKILL.md",
+    "cursor_rules": ".cursor/rules/writing-style.md"
+  },
+  "capabilities": [
+    "rewrite",
+    "generate",
+    "cover-image-prompt"
+  ],
+  "outputs": [
+    "text.zh",
+    "image-prompt.zh"
+  ],
+  "license": "MIT",
+  "pricing": {
+    "type": "free"
+  },
+  "tags": [
+    "writing",
+    "zh-CN",
+    "narrative-style",
+    "story-writing",
+    "first-person"
+  ],
+  "compatibility": [
+    "Claude Code",
+    "Codex",
+    "Cursor",
+    "OpenAI-compatible agents"
+  ]
+}

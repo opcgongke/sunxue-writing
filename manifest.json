@@ -1,0 +1,37 @@
+{
+  "name": "孙学写作叙事",
+  "id": "sunxue-writing-narrative",
+  "version": "0.4.0",
+  "description": "中文第一人称高反差叙事 Skill（场景细节、数字反差、情绪留白与情节型封面提示词）",
+  "language": "zh-CN",
+  "display_name": "孙学写作叙事",
+  "entry": "SKILL.md",
+  "tags": [
+    "writing",
+    "chinese",
+    "first-person",
+    "narrative",
+    "story-style"
+  ],
+  "capabilities": [
+    "rewrite",
+    "generate",
+    "cover-image-prompt"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "author": "sunxue-writing",
+  "compatibility": [
+    "Claude Code",
+    "Codex",
+    "Cursor",
+    "OpenAI-compatible agents"
+  ],
+  "install": {
+    "notes": [
+      "Claude Code: 将仓库作为 skill 导入并引用 SKILL.md。",
+      "Codex: 参考 SKILL.md 的规则内容进行任务提示。",
+      "Cursor: 同步 .cursor/rules 规则文件。"
+    ]
+  }
+}
